@@ -4,6 +4,7 @@ export const GlobalStyle=createGlobalStyle`
     
 body{
     background:#1b1b1b;
+    font-family:'Inter', sans-serif;
 }
 *{
     margin:0;
@@ -19,12 +20,17 @@ button{
     background:transparent;
     color:white;
     transition:all 0.5s ease;
+    font-family:'Inter', sans-serif;
     &:hover{
         background-color:#23d997;
         color:white;
     }
 
 }
+span{
+    color:#23d997;
+}
+
 h2{
     font-weight:lighter;
     font-size:4rem;
