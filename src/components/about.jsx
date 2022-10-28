@@ -17,12 +17,13 @@ const About=()=>{
                         <h2>true.</h2>
                     </div>
                 </div>
-                <p>Contact us for any photography or videography 
+                <p>
+                    Contact us for any photography or videography 
                     have professional with amazing skills.
                 </p>
                 <button>Contact us</button>
                 <div className="image">
-                    <img src={home1} alt="" />
+                    <img src={home1} alt="guy" />
                 </div>
             </div>
         </section>
